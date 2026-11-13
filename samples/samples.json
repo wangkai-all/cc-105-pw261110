@@ -1,0 +1,4 @@
+{
+  "shop-orders-a.har": "订单分页：含 base64 响应体、重试重复（第2页）、500 错误（第3页）、响应体缺失（第4页首次）、敏感头与敏感参数",
+  "shop-orders-b.har": "同接口另一次导出：字段改名 total→totalAmount、新增 currency、移除 remark，用于方案结构差异检查"
+}

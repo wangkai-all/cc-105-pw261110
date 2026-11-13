@@ -1,0 +1,15 @@
+{
+  "name": "har-extractor",
+  "version": "1.0.0",
+  "description": "离线 HAR 请求查看与 JSON 响应表格提取工具（不上行任何请求）",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "samples": "node scripts/generate-samples.mjs",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
